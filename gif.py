@@ -17,4 +17,4 @@ if not args["name"]:
 else:
     output_name = args["name"]+".gif"
 
-gif.save(output_name, format='GIF', append_images=frames,save_all=True, duration=1000, loop=0)
+gif.save(output_name, format='GIF', append_images=frames, save_all=True, duration=1000, loop=0)
