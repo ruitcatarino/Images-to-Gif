@@ -1,4 +1,3 @@
-# pip install Pillow
 from PIL import Image, ImageDraw
 import glob
 import argparse
